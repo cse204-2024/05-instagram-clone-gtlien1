@@ -162,19 +162,19 @@ section{
     color: rgb(175, 175, 175);
 }
 
-p1 {
+pprimary {
     margin-left: 2%;
     line-height: 30px;
     font-family: 'proxima-nova', sans-serif;
     font-weight: 600;
 }
 
-p2 {
+psecondary {
     font-family: 'proxima-nova', sans-serif;
     font-weight: 400;
 }
 
-p3 {
+ptertiary {
     margin-left: 2%;
     line-height: 25px;
     font-size: 90%;
@@ -183,7 +183,7 @@ p3 {
     color: rgb(175, 175, 175);
 }
 
-.suggestions p2  {
+.suggestions psecondary  {
     font-weight: 500;
     color:#0095f7;
     margin-right: 4%;
