@@ -28,34 +28,37 @@
     <main>
         <div class = "posts">
             <section id = "post1">    
-                <div class="post-top">
+                <div class="upperpost">
                     <img src="images/pfp1.jpg" alt="pfp1" class="pfp">
                     <p class="username">gtlien1</p>
                 </div>
                 <img src="images/geoffrey.png" alt="geoffrey" class="image">
-                <div class="post-bottom">
+                <div class="lowerpost">
                     <img src="images/heart.png" alt="heart" class = "postButton">
                     <img src="images/speech_bubble.png" alt="speech bubble" class = "postButton">
                     <img src="images/upload.png" alt="upload" class = "postButton">
                     <img src="images/bookmark.png" alt="bookmark" class = "postButton">
-                    <br><p1>100 likes</p1>
-                    <br><p1>gtlien1</p1>
+                    <br>
+                    <p1>100 likes</p1>
+                    <br>
+                    <p1>gtlien1</p1>
                     <p2>geoffrey's headshot!</p2>
-                    <br><p3>4 HOURS AGO</p3>
+                    <br>
+                    <p3>4 HOURS AGO</p3>
                 </div>
                 <div class="comment">
                     <p3>Add a comment...</p3><p3 id="dots">...</p3>
                 </div>
             </section>
             <section id = "post2"> 
-                <div class="post-top">
+                <div class="upperpost">
                     <img src="images/pfp2.jpg" alt="pfp2" class="pfp">
                     <p class="username">lewishamilton</p>
                 </div>
                 <img src="images/f1car.jpg" alt="racecar" class="image">
-                <div class="post-bottom">
+                <div class="lowerpost">
                     <img src="images/heart.png" alt="heart" class = "postButton">
-                    <img src="images/speech_bubble.png" alt="speech bubble" class = "postButton">
+                    <img src="images/speech_bubble.png" alt="speech" class = "postButton">
                     <img src="images/upload.png" alt="upload" class = "postButton">
                     <img src="images/bookmark.png" alt="bookmark" class = "postButton">
                     <br>
@@ -67,92 +70,132 @@
                     <p3>6 HOURS AGO</p3>
                 </div>
                 <div class="comment">
-                    <p3>Add a comment...</p3><p3 id="dots">...</p3>
+                    <p3>Add a comment...</p3>
+                    <p3 id="dots">...</p3>
                 </div>
             </section>
         </div>
         <div class = "suggestions">
-            <p1 id="suggest_text">Suggestions For You</p1><p2>See All</p2><br><br>
-                    <div class="profile" id="profile1">
-                        <p2 id="x">X</p2><br>
-                        <img src="images/sergio.avif" alt="sergio"><br><br>
-                        <p1>sergioperez</p1><br>
-                        <p3>Popular</p3><br><br>
-                        <button>Follow</button>
-                    </div>
-                    <div class="profile" id="profile2">
-                        <p2 id="x">X</p2><br>
-                        <img src="images/lando.webp" alt="lando" ><br><br>
-                        <p1>landonorris</p1><br>
-                        <p3>Popular</p3><br><br>
-                        <button>Follow</button>
-                    </div>
-                    <div class="profile" id="profile3">
-                        <p2 id="x">X</p2><br>
-                        <img src="images/carlos.webp" alt="carlos"><br><br>
-                        <p1>carlossainz</p1><br>
-                        <p3>Popular</p3><br><br>
-                        <button>Follow</button>
-                    </div>
+            <p1 id="suggest_text">Suggestions For You</p1>
+            <p2>See All</p2>
+            <br>
+            <br>
+            <div class="profile" id="profile1">
+                <p2 id="x">X</p2>
+                <br>
+                <img src="images/sergio.avif" alt="sergio">
+                <br>
+                <br>
+                <p1>sergioperez</p1>
+                <br>
+                <p3>Popular</p3>
+                <br>
+                <br>
+                <button class = "follow">Follow</button>
+            </div>
+            <div class="profile" id="profile2">
+                <p2 id="x">X</p2>
+                <br>
+                <img src="images/lando.webp" alt="lando" >
+                <br>
+                <br>
+                <p1>landonorris</p1>
+                <br>
+                <p3>Popular</p3>
+                <br>
+                <br>
+                <button class = "follow">Follow</button>
+            </div>
+            <div class="profile" id="profile3">
+                <p2 id="x">X</p2>
+                <br>
+                <img src="images/carlos.webp" alt="carlos"><br>
+                <br>
+                <p1>carlossainz</p1>
+                <br>
+                <p3>Popular</p3><br>
+                <br>
+                <button class = "follow">Follow</button>
+            </div>
         </div>
     </main>
     <div class="sidebar">
-        <div id="user-story">
+        <div id="top-story">
             <img src="images/pfp1.jpg" alt="pfp1">
-            <p1>gtlien1</p1><br>
+            <p1>gtlien1</p1>
+            <br>
             <p3>gtlien1</p3>
-            <br><br>
+            <br>
+            <br>
         </div>
         <p3 id="stories">Stories</p3>
-        <p3 id="watch">Watch All</p3><br><br>
+        <p3 id="watch">Watch All</p3>
+        <br>
+        <br>
         <div id="slider">
-            <div class="story">
+            <div class="sliderstory">
                 <img src="images/yuki.jpg" alt="yuki">
-                <p1>yukitsunoda</p1><br>
+                <p1>yukitsunoda</p1>
+                <br>
                 <p3>5 HOURS AGO</p3>
             </div>
             <br>
-            <div class="story">
+            <div class="sliderstory">
                 <img src="images/daniel.jpg" alt="daniel">
-                <p1>danielricciardo</p1><br>
+                <p1>danielricciardo</p1>
+                <br>
                 <p3>7 HOURS AGO</p3>
             </div>
             <br>
-            <div class="story">
+            <div class="sliderstory">
                 <img src="images/gasly.webp" alt="gasly">
-                <p1>pierregasly</p1><br>
+                <p1>pierregasly</p1>
+                <br>
                 <p3>2 HOURS AGO</p3>
             </div>
             <br>
-            <div class="story">
+            <div class="sliderstory">
                 <img src="images/goatifi.webp">
-                <p1>goatifi</p1><br>
+                <p1>goatifi</p1>
+                <br>
                 <p3>9 HOURS AGO</p3>
             </div>
             <br>
-            <div class="story">
+            <div class="sliderstory">
                 <img src="images/mazespin.jpg" alt="dog">
-                <p1>mazespin</p1><br>
+                <p1>mazespin</p1>
+                <br>
                 <p3>12 HOURS AGO</p3>
             </div>
         </div>
-        <footer>
-            <a href="#">About Us</a><p1>.</p1>
-            <a href="#">Support</a><p1>.</p1>
-            <a href="#">Press</a><p1>.</p1>
-            <a href="#">API</a><p1>.</p1>
-            <a href="#">Jobs</a><p1>.</p1><br>
-            <a href="#">Privacy</a><p1>.</p1>
-            <a href="#">Terms</a><p1>.</p1>
-            <a href="#">Directory</a><p1>.</p1>
-            <a href="#">Profiles</a><p1>.</p1><br>
-            <a href="#">Hashtags</a><p1>.</p1>
-            <a href="#">Language</a><p1>.</p1><br>
+        <div class = sidebarfooter>
+            <a href="#">About Us</a>
+            <p1>·</p1>
+            <a href="#">Support</a>
+            <p1>·</p1>
+            <a href="#">Press</a>
+            <p1>·</p1>
+            <a href="#">API</a>
+            <p1>·</p1>
+            <a href="#">Jobs</a>
+            <p1>·</p1><br>
+            <a href="#">Privacy</a>
+            <p1>·</p1>
+            <a href="#">Terms</a>
+            <p1>·</p1>
+            <a href="#">Directory</a>
+            <p1>·</p1>
+            <a href="#">Profiles</a>
+            <p1>·</p1><br>
+            <a href="#">Hashtags</a>
+            <p1>·</p1>
+            <a href="#">Language</a>
+            <p1>·</p1>
             <br>
-            <a href="#" id="copy">&copy; 2018 INSTAGRAM</p1>
-        </footer>
+            <br>
+            <a href="#" id="copy">&copy; 2018 INSTAGRAM</a>
+        </div>
     </div>
-    
     <footer>
     </footer>
 </body>

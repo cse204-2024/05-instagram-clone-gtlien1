@@ -77,7 +77,7 @@ section{
     border-style:solid;
     margin-top: 60px;
     border-width:1px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .suggestions{
@@ -92,12 +92,12 @@ section{
     border-radius: 5px;
 }
 
-.post-top {
+.upperpost {
     display: flex;
     align-items: center;
 }
 
-.post-bottom {
+.lowerpost{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -128,12 +128,12 @@ section{
 }
 
 
-#dots {
-    position: relative;
-    left: 75%;
+.dots {
     letter-spacing: 2px;
     font-weight: bold;
     color: rgb(55, 55, 55);
+    position: relative;
+    left: 75%;
 }
 
 .comment {
@@ -141,5 +141,126 @@ section{
     border-top-color: rgb(230, 230, 230);
     padding-top: 2.5%;
     margin-bottom: 2.5%;
+}
+
+.sidebar {
+    overflow-y: scroll;
+    display: block;
+    margin-top:100px;
+    margin-right: 7%;
+    padding-top: 40px;
+    float: right;
+    width: 28%;
+    height: 20%;
+    position: sticky;
+    z-index: -5;
+}
+
+#suggest_text {
+    margin-left: 4%;
+    font-size: 110%;
+    color: rgb(175, 175, 175);
+}
+
+p1 {
+    margin-left: 2%;
+    line-height: 30px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+}
+
+p2 {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+}
+
+p3 {
+    margin-left: 2%;
+    line-height: 25px;
+    font-size: 90%;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 500;
+    color: rgb(175, 175, 175);
+}
+
+.suggestions p2  {
+    font-weight: 500;
+    color:#0095f7;
+    margin-right: 4%;
+    float: right;
+}
+
+.profile {
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 3.5%;
+    margin-right: 0.5%;
+    text-align: center;
+    float: left;
+    width: 20%;
+    border: solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.profile img{
+    height: 75px;
+    width: 75px;
+    border-radius:50%;
+}
+
+@media screen and (max-width: 760px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sliderstory img {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+#watch{
+float:right;
+}
+
+#top-story img {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#user-story {
+    border-bottom: white;
+}
+
+#slider {
+    border-bottom: white;
+    padding-bottom: 15px;
+    height: 300px;
+    overflow-y: auto;
+}
+  
+.follow {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    color: rgb(230, 230, 230);
+    background-color: #0095f7;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2% 20%;
+    border: none;
+}
+  
+.sidebarfooter a{
+    color: rgb(175, 175, 175);
+    font-size: small;
+    text-decoration: none;
+    font-family: 'proxima-nova', sans-serif;
 }
 
